@@ -25,7 +25,13 @@
                 <artifactId>soapui-maven-plugin</artifactId>
                 <version>5.3.0</version>
 		<dependencies>
-		
+
+	 <dependency>
+  	   <groupId>com.jgoodies</groupId>
+    	   <artifactId>forms</artifactId>
+           <version>1.0.7</version>
+   	</dependency>
+	
         <dependency>
           <groupId>com.jgoodies</groupId>
           <artifactId>forms</artifactId>
